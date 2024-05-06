@@ -84,7 +84,7 @@ function removeFromBag(itemId) {
 function generateItemHTML(item) {
   return `<div class="bag-item-container">
     <div class="item-left-part">
-      <img class="bag-item-img" src="../${item.image}" width="111px" height="148px">
+      <img class="bag-item-img" src="her/Puma/${item.image}" width="111px" height="148px">
     </div>
     <div class="item-right-part">
       <div class="company">${item.company}</div>
